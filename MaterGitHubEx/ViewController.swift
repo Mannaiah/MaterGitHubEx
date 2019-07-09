@@ -18,9 +18,14 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         detail_array = ["a","b","c"]
         
         let view1 = UIView()
-        view1.frame = CGRect(x: 10, y: 10, width: 100, height: 200)
+        view1.frame = CGRect(x: 10, y: 10, width: 100, height: 300)
         view1.backgroundColor = UIColor.red
         self.view.addSubview(view1)
+        
+        let view2 = UIView()
+        view2.frame = CGRect(x: 10, y: 10, width: 100, height: 200)
+        view2.backgroundColor = UIColor.red
+        self.view.addSubview(view2)
     }
 
     override func didReceiveMemoryWarning() {
